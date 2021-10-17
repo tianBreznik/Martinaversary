@@ -151,7 +151,7 @@ function init() {
 
         const fontLoader = new THREE.FontLoader()
         fontLoader.load(
-            '../fonts/Mf Love Song_Regular.json',
+            '../static/fonts/Mf Love Song_Regular.json',
             (font) => {
 
                 const textGeometry = new THREE.TextBufferGeometry(
